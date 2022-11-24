@@ -31,7 +31,7 @@
 
 ## Live link
 
-- [Todo App]()
+- [Todo App](https://js-assig-2-todo-app.netlify.app/)
 
 ---
 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>ToDoAPP</title>
+</head>
+<body>
+    
+    <!-- navbar -->
+
+    <section class="mainSection">
+    <nav class="navbar">
+    
+            <h2 class="header">All Tasks</h2>
+       
+    </nav>
+
+<!-- to Add Lists -->
+<section class="inputSection">
+    <input class="input" type="text"  placeholder="What you want to do?">
+    <button class="addbtn" onclick="addTasks()"  >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="svgOne w-12 h-12 ">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg> 
+      </button>
+      <!-- <button  class="dAll"> dall</button> -->
+</section>
+
+    <!-- to do lists below-->
+
+    <section class="section">
+        <ul class="lists">
+            <!-- <li class="list">
+                <div class="paraDiv">
+                <p class="para"  >asd<p>
+                <input  type="checkbox"  class="inputCheck" >
+            </div>
+               
+                <button type="button" class="edit" >Edit</button>
+                <button type="button" class="drop" >Drop</button>
+            </li>
+            <li class="list"> 
+                
+                <div class="paraDiv">
+                    <p class="para"  > adasd</p>
+                <input  type="checkbox"  class="inputCheck" >
+            </div>
+                
+                 <button type="button" class="edit" >Edit</button>
+                 <button type="button" class="drop" >Drop</button>
+             </li> -->
+        </ul>
+    </section>
+</section>
+<script src="./script.js"></script>
+
+</body>
+</html>

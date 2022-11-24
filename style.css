@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    border: 0;
+    outline: 0;
+    margin: 0;
+
+}   
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    border: 0;
+    outline: 0;
+    margin: 0rem 1rem 0rem 1rem ;
+    background-image :  linear-gradient( to right,rgba(27, 20, 100,0.6),rgba(87, 88, 187,0.4)) , url(./pexels-startup-stock-photos-7376.jpg);
+ background-position: center;
+  background-size:  cover ;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+    
+}
+
+
+.mainSection{
+
+    width: 30rem;
+    height: 40rem;
+    background: linear-gradient(to right,rgba(27, 20, 100,0.1),rgba(87, 88, 187,0.0));
+    backdrop-filter: blur(0.4rem);
+    border-radius: 0.5rem;
+    box-shadow: 0.01rem 0.01rem 3rem #000000;
+    overflow-y: scroll;
+    overflow-x: hidden;
+   
+}
+
+.mainSection::-webkit-scrollbar{
+
+width: 0.6rem;
+
+}
+.mainSection::-webkit-scrollbar-track{
+   background-color: #70a1ff;
+   border-radius: 2rem;
+   margin: 0.2rem 0;
+  
+}
+.mainSection::-webkit-scrollbar-thumb{
+   background-color: #3742fa;
+   border-radius: 2rem;
+   border: 0.1rem solid  #70a1ff ;
+}
+.mainSection::-webkit-scrollbar-thumb:hover {
+   background-color: #5758BB;
+   
+}
+
+.navbar{
+   display: flex;
+    flex-direction:row;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 1rem 0rem 1rem;
+
+}
+
+
+
+.header {
+    cursor: pointer;
+    color: #f1f2f6;
+    font-size: 2rem;
+ font-weight: bolder;
+ opacity: 0.7;
+}
+
+.header:hover{
+color: #0a3d62;
+opacity: 0.7;
+transition: ease-in 0.3s;
+}
+
+
+
+/*  input part  */
+
+.inputSection{
+    display: flex;
+    flex-direction:row;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 1rem 0rem 1rem;
+    column-gap: 1rem;
+   
+}
+
+
+.input{
+    width: 23rem;
+    height: 3rem;
+    border-radius: 33rem;
+    padding: 0rem 0rem 0rem 1rem;
+    background-color: #f1f2f6; 
+    font-family: 'Roboto Mono', monospace;
+}
+
+.input:focus{
+    outline: 0.2rem solid #5352ed ;
+    box-shadow: 0.1rem 0.1rem 2rem #5352ed;
+
+}
+  ::placeholder{
+    opacity: 0.6;
+ }
+
+
+ .addbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: #f1f2f6; 
+    border-radius: 2rem;
+    cursor: pointer;
+ }
+
+ .svgOne{
+transform: scale(1.0);
+pointer-events: none;
+ }
+
+
+ .addbtn:active{
+    background-color: #5352ed; 
+
+     }
+     .addbtn:focus{
+        box-shadow: 0.1rem 0.1rem 3rem #5352ed;
+    
+    }
+     .svgOne:active{
+        background-color: #5352ed; 
+        color: #f1f2f6;
+         }
+        
+
+
+         /* lists part */
+
+
+         .lists{
+            width: 100%;
+            margin: 0rem 1rem;
+            margin-top: 3rem; 
+         }
+
+         .list{
+            position: relative;
+            right: 2rem;
+            max-width: 100%;
+            height: 3rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            list-style:none;
+            column-gap: 1rem;
+            margin-right: 2rem;          
+         }
+
+         .paraDiv{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Roboto Mono', monospace;
+            width: 20rem;
+            height: 2rem;
+            border-radius: 2rem;
+            background-color: #f1f2f6;
+            
+        
+         }
+         .paraDiv:hover{
+         box-shadow: 0.02rem 0.02rem 0.5rem #000000;
+         transition: ease-in-out 0.2s;
+         }
+
+         .para{
+            margin-left: 1rem;
+            opacity: 0.9;
+         }
+         .inputCheck{    
+            float: right;
+            margin-right: 0.5rem;        
+         }
+
+         .edit{
+            background-color: rgba(164, 176, 190,1.0);
+            color: #f1f2f6;
+            font-weight: 800;
+            width: 3rem;
+            height: 2rem;
+            border-radius: 0.8rem;
+            font-family: 'Roboto Mono', monospace;
+            cursor: pointer;
+         }
+
+         .drop{
+            background-color: rgba(255, 107, 129,1.0);
+            color: #f1f2f6;
+            width: 3rem;
+            height: 2rem;
+            border-radius: 0.8rem;
+            font-family: 'Roboto Mono', monospace;
+            cursor: pointer;
+            font-weight: 800;
+         }
+
+
+         .edit:active{
+            background-color: rgba(116, 125, 140,1.0);
+            color: #f1f2f6;
+        
+            cursor: pointer;
+         }
+
+         .drop:active{
+            background-color: rgba(255, 71, 87,1.0);
+            color: #f1f2f6;
+         
+            cursor: pointer;
+         }
+
+         .inputCheck{
+            -webkit-appearance: none;
+            
+            width: 1.2rem;
+            height: 1.2rem;
+            border: 0.12rem solid#5352ed;
+            border-radius: 2rem;
+            position: relative;
+         }
+
+
+         .inputCheck:checked{
+            -webkit-appearance: none;
+           
+            border: 0.12rem solid rgba(46, 213, 115,1.0);
+           
+         }
+
+
+         .inputCheck:checked::after{
+            content:'\01F5F8';
+            color: rgba(46, 213, 115,1.0);
+            position: absolute;
+            bottom:2px;
+            left: 3px;
+            top: -1px;
+            font-weight: bold;
+         }
+
+     .strike{
+      text-decoration-line: line-through;
+      color: rgba(0,0,0,0.3);
+     }
